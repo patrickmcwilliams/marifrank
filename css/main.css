@@ -1,0 +1,23 @@
+body {
+  background-image: linear-gradient(#ffffff,#89d5ef) !important;
+}
+.navbar-nav > li > a {
+  padding-top:0px !important; padding-bottom:0px !important;
+}
+.navbar {
+  min-height:25px !important;
+  padding: 0px !important;
+}
+.top, .side-nav{
+  padding: 0px;
+}
+.header {
+  background-color: #1f2b65;
+  margin: 0px;
+}
+#navbarNav {
+  background-image: linear-gradient(teal,white) !important;
+}
+.separator {
+  background-image: url(../images/bkgd-burgundy.gif) !important;
+}
