@@ -21,3 +21,6 @@ body {
 .separator {
   background-image: url(../images/bkgd-burgundy.gif) !important;
 }
+.content {
+  background-color: white;
+}
