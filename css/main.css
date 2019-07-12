@@ -16,7 +16,7 @@ body {
   margin: 0px;
 }
 #navbarNav {
-  background-image: linear-gradient(teal,white) !important;
+  background-image: linear-gradient(#89d5ef,white) !important;
 }
 .separator {
   background-image: url(../images/bkgd-burgundy.gif) !important;
