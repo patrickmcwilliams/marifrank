@@ -22,5 +22,16 @@ body {
   background-image: url(../images/bkgd-burgundy.gif) !important;
 }
 .content {
+  background-image: url(../images/bkgd-content.gif) !important;
+  background-repeat: no-repeat;
   background-color: white;
+}
+.side-nav {
+  background-image: url(../images/bkgd-sidebar.gif) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #89d5ef;
+}
+.side-links {
+  padding-left: .5rem;
 }
