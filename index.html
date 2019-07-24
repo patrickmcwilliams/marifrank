@@ -332,12 +332,17 @@
         $("#main-content").load(route);
       } else {
         var url = window.location.hash.substr(1);
-        $.get(url)
-          .done(function() {
-            $("#main-content").load(url);
-          }).fail(function() {
-            $("#main-content").load(routes["#index"]);
-          })
+        if(url==""){
+          $("#main-content").load(routes["#index"]);
+        }
+        else{
+          $.get(url)
+            .done(function() {
+              $("#main-content").load(url);
+            }).fail(function() {
+              $("#main-content").load(routes["#index"]);
+            })
+        }
 
       }
 
