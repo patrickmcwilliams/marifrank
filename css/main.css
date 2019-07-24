@@ -35,3 +35,7 @@ body {
 .side-links {
   padding-left: .5rem;
 }
+
+h2 {
+  font-size: 3vw;
+}
